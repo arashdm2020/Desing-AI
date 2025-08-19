@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --foreground: #0f172a;
+  --background: #f8fafc;
+}
+
+html, body { height: 100%; }
+body { color: var(--foreground); background: var(--background); }
+
+/* Persian font */
+* { font-family: 'Vazirmatn', ui-sans-serif, system-ui, sans-serif; }
